@@ -3,37 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Voting System</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="evm">
-        <div id="candidate00" class="candidates">
-            <h2>PARTY NAME</h2>
-            <h2>LEADER</h2>
-            <h2>VOTE</h2>
-        </div>
-        <div id="candidate01" class="candidates">
-            <h2>RCB</h2>
-            <h2>MALYA</h2>
-            <button id="vote1">VOTE</button>
-        </div>
-        <div id="candidate02" class="candidates">
-            <h2>MI</h2>
-            <h2>AMBANI</h2>
-            <button  id="vote2">VOTE</button>
-        </div>
-        <div id="candidate03" class="candidates">
-            <h2>CSK</h2>
-            <h2>THALA</h2>
-            <button id="vote3">VOTE</button>
-        </div>
-        <div id="candidate04" class="candidates">
-            <h2>NOTA</h2>
-            <h2>NOTA</h2>
-            <button id="vote4">VOTE</button>
-        </div>
+<div id="evm">
+    <div id="candidate00" class="candidates">
+        <h2>PARTY NAME</h2>
+        <h2>LEADER</h2>
+        <h2>VOTE</h2>
     </div>
-</body>
-<link rel="stylesheet" href="./style.css">
+    <div id="candidate01" class="candidates">
+        <h2>RCB</h2>
+        <h2>MALYA</h2>
+        <button id="vote1">VOTE</button>
+    </div>
+    <div id="candidate02" class="candidates">
+        <h2>MI</h2>
+        <h2>AMBANI</h2>
+        <button id="vote2">VOTE</button>
+    </div>
+    <div id="candidate03" class="candidates">
+        <h2>CSK</h2>
+        <h2>THALA</h2>
+        <button id="vote3">VOTE</button>
+    </div>
+    <div id="candidate04" class="candidates">
+        <h2>NOTA</h2>
+        <h2>NOTA</h2>
+        <button id="vote4">VOTE</button>
+    </div>
+    <div id="status" class="candidates">
+        <h3>Votes remaining: <span id="votesLeft">10</span></h3>
+        <h3>Time left: <span id="timeLeft">5:00</span></h3>
+    </div>
+</div>
+
 <script src="./voting.js"></script>
+</body>
 </html>
